@@ -1,6 +1,6 @@
 .head {
-  height: auto;
-  width: auto;
+  height: 50px;
+  width: 100%;
   /* background-color: aliceblue; */
   display: flex;
   align-items: center;
@@ -17,4 +17,15 @@
 }
 .header .world {
   color: #838383;
+}
+@media only screen and (max-width: 480px) {
+  .head {
+    height: auto;
+    width: auto;
+    padding: 20px;
+  }
+  .header {
+    height: 100%;
+    width: 100%;
+  }
 }
