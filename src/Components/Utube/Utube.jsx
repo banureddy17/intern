@@ -8,8 +8,6 @@ function Utube() {
         <div class="utube_con">
           <div class="utube1">
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/TN7iJyc5Uks?si=bOUS7nDsW5b9L4F5"
               title="YouTube video player"
               frameborder="0"

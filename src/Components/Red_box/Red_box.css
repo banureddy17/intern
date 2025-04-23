@@ -27,3 +27,17 @@
   margin-top: 20px;
   color: #a10005;
 }
+@media only screen and (max-width: 480px) {
+  .red_box {
+    height: auto;
+    width: auto;
+    padding: 20px;
+    font-size: 10px;
+  }
+  .grow_business {
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

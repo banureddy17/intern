@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./About.css";
 import img1 from "../../Assests/img1.png";
-
+import { GiHamburgerMenu } from "react-icons/gi";
 function About() {
+  const [close, setclose] = useState(false);
+  function opendiv(params) {
+    setclose(!close);
+  }
   return (
     <>
       <div class="about">
@@ -10,7 +14,7 @@ function About() {
           <div class="img">
             <img src={img1} alt="" />
           </div>
-          <div class="menu">
+          <div class={close ? "menu1" : "menu"}>
             <ul>
               <li>About us</li>
               <li>sell on</li>
@@ -19,6 +23,7 @@ function About() {
             </ul>
           </div>
         </div>
+        <GiHamburgerMenu className="closeicon" onClick={opendiv} />
       </div>
     </>
   );

@@ -29,3 +29,27 @@
   color: white;
   background-color: transparent;
 }
+@media only screen and (max-width: 480px) {
+  .footer {
+    height: 100%;
+    width: 100%;
+    /* padding: 20px; */
+  }
+  .footer_con {
+    font-size: 15px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+  .footer_con button {
+    height: 40px;
+    width: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+  }
+}
