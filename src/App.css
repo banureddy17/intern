@@ -6,6 +6,7 @@
 body {
   height: vh;
   width: vw;
+  overflow-x: hidden;
 }
 .all {
   /* background-color: aqua; */

@@ -1,7 +1,7 @@
 .seller_banner {
   height: 500px;
   width: 100%;
-  background-color: black;
+  /* background-color: black; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,4 +69,27 @@
   margin: 0 auto;
 
   width: 55%;
+}
+@media only screen and (max-width: 480px) {
+  .seller_banner {
+    height: auto;
+    width: auto;
+    padding: 20px;
+  }
+  .seller_banner1 {
+    height: 100%;
+    width: 100%;
+  }
+  .sell_range {
+    font-size: 5px;
+  }
+  .sell_button button {
+    height: 50px;
+    width: 70px;
+  }
+  .sell2 {
+    height: 100px;
+    width: 70px;
+    font-size: 10px;
+  }
 }
