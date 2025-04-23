@@ -1,0 +1,50 @@
+.store {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.store1 {
+  /* background-color: antiquewhite; */
+  height: 100%;
+  width: 80%;
+  border-left: 1px solid gray;
+
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.st1 {
+  height: 100%;
+  width: 18%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.st2 {
+  height: 100%;
+  width: 40%;
+  /* background-color: rgb(55, 0, 255); */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+}
+.st3 {
+  height: 80%;
+  width: 30%;
+  /* background-color: aqua; */
+}
+.st3 img {
+  height: 100%;
+  width: 100%;
+}

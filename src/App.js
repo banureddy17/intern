@@ -1,12 +1,12 @@
-import logo from "./logo.svg";
 import React from "react";
 import "./App.css";
-import Intern from "./Components/Intern";
+
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <Intern />
+      <Home />
       <div className="all">
         <button> start selling</button>
         <button> customer service</button>

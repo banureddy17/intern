@@ -1,0 +1,42 @@
+.success {
+  width: 100%;
+  height: 600px;
+  background-color: #f2f4f8;
+
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.success h1 {
+  color: #a10005;
+}
+
+.success_man {
+  height: 75%;
+  width: 80%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.success_img {
+  height: 100%;
+  width: 50%;
+  background-color: aqua;
+}
+.success_img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.success_con {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}

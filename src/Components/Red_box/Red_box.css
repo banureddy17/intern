@@ -1,0 +1,29 @@
+.red_box {
+  background-color: #ed1c24;
+  color: white;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+
+  justify-content: center;
+  gap: 20px;
+}
+.red_box h1 {
+  padding-top: 30px;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+.red_box p {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.grow_business {
+  text-align: center;
+  margin-top: 20px;
+  color: #a10005;
+}

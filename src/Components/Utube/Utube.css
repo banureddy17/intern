@@ -1,0 +1,32 @@
+.utube {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(19, 18, 18); */
+  margin-top: 20px;
+}
+.utube_con {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.utube1 {
+  height: 70%;
+  width: 90%;
+  /* background-color: aquamarine; */
+}
+.utube2 {
+  height: 60%;
+  width: 90%;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+}

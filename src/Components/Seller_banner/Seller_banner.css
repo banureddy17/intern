@@ -1,0 +1,72 @@
+.seller_banner {
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+.seller_banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.seller_banner1 {
+  /* background-color: blue; */
+  height: 60%;
+  width: 80%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sell1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+}
+.sell_range {
+  /* background-color: aqua; */
+  height: 20%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+.sell_button {
+  /* background-color: antiquewhite; */
+  height: 10%;
+  width: 30%;
+  display: flex;
+  gap: 20px;
+}
+.sell_button button {
+  height: 50px;
+  width: 100px;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: transparent;
+  color: #ed1c24;
+}
+.sell_button button:hover {
+  background-color: #ed1c24;
+  color: white;
+}
+.sell2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 18px;
+}
+.mdm {
+  text-align: center;
+  margin: 0 auto;
+
+  width: 55%;
+}
